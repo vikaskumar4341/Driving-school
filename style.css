@@ -38,6 +38,13 @@
   }
 
   .carousel-caption h1{
+    font-size: 50px;
+    width: 100%;
+    
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption h2{
     font-size: 40px;
     
     font-weight: bold;
@@ -62,6 +69,33 @@
     .myimg{
         height: 300px !important;
       }
+      .carousel-caption {
+        position: absolute;
+      
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        z-index: 2;
+      }
+      .carousel-caption h1{
+        font-size: 30px;
+        width: 75%;
+        
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      .carousel-caption h2{
+        font-size: 30px;
+        
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
 
   }
 
@@ -76,6 +110,7 @@
     margin-top: -100px;
     position: absolute;
     z-index: 99;
+    
   }
 
   .driving:hover {
@@ -149,7 +184,16 @@ flex-direction: column;
     height: 500px;
     width: 100%;
     /* background-color: green; */
-    margin-top: 0px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about2 {
+    height: 500px;
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +267,7 @@ flex-direction: column;
     background-color: #fff;
     color: rgb(177, 210, 89);
     border: 2px solid rgb(177, 210, 89);
-    scale: 1.1;
+    
 
   }
 
@@ -252,7 +296,16 @@ flex-direction: column;
 
 
   }
-  
+  .about2 {
+    height: fit-content;
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .a {
     position: relative;
     height: 300px;
@@ -272,7 +325,7 @@ flex-direction: column;
     height: fit-content;
     width: 100%;
     /* background-color: green; */
-    margin-top: 0px;
+    margin-top: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,10 +337,12 @@ flex-direction: column;
     /* background-color: yellowgreen; */
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 50px;
+    
     /* margin-top: 80px; */
     /* margin-left: 70px; */
 
@@ -295,17 +350,20 @@ flex-direction: column;
   .aboutus h4 {
     color: #afdb35;
     font-size: 30px;
-    text-align: center;
+    
     margin-left: 30px;
+    margin-top: 40px;
     
   }
 
   .aboutus h1 {
     /* color: #a5da13; */
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
-    margin-left: 30px;
-    /* text-align: center; */
+    text-align:start;
+    margin-left: 20px;
+    margin-top: 20px;
+  
   }
 
   .aboutus p {
@@ -322,9 +380,9 @@ flex-direction: column;
     cursor: pointer;
     border: none;
     border-radius: 15px;
-    margin-top: 10px;
-    margin: 30px 0px 30px 50px;
-    margin-bottom: 70px;
+    margin-top: 20px;
+    
+    
   }
     
   }
@@ -766,8 +824,8 @@ flex-direction: column;
 @media only screen and (max-width:426px) {
 
 .form-section{
-  width: 100%;
-  background-color:;
+  width: 90%;
+  
 }
 .form-header{
   font-size: 40px;
@@ -871,6 +929,35 @@ flex-direction: column;
   .footerup{
     flex-direction: column;
   }
+  .footercontent{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.footerup{
+  height: 90%;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerdown{
+  height: 10%;
+  width: 100%;
+  /* background-color:rgb(104, 104, 222); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: large;
+}
 }
 
 
