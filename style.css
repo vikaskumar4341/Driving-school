@@ -177,6 +177,12 @@ flex-direction: column;
     margin-top: 10px;
 
   }
+      .driving:hover {
+    scale: 1;
+    background-color: #dbf19e;
+
+
+  }
 
   }
 
